@@ -1,7 +1,22 @@
-.title{
-    font-size: 52px;
+p{
+    animation: pointdown 1000ms infinite alternate-reverse;
+}
+ 
+@keyframes pointdown {
+    0%{
+        transform: translateY(0)
+     }
+    100%{
+        transform: translateY(16px)
+
+    }
 }
 
-.paragraph{
-    font-size: 24px;
-}
+/* How to create animations */
+/* Translate controls the positions of the animated thing */
+/* "TranslateY or TranslateX only one movement */
+/* can change "infinite" to 1, 2, 3, etc */
+
+
+
+/* Yes, this screenshot exists on its own. No html change */
